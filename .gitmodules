@@ -1,0 +1,9 @@
+[submodule "modules/dongry"]
+	path = modules/dongry
+	url = git://github.com/wakaba/dongry
+[submodule "modules/perl-json-functions-xs"]
+	path = modules/perl-json-functions-xs
+	url = git://github.com/wakaba/perl-json-functions-xs
+[submodule "modules/perl-web-useragent-functions"]
+	path = modules/perl-web-useragent-functions
+	url = git://github.com/wakaba/perl-web-useragent-functions
