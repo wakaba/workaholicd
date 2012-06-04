@@ -1,0 +1,20 @@
+=head1 NAME
+
+Workaholicd - A simple daemon to watch databases and notify events by invoking Web APIs
+
+=head1 DESCRIPTION
+
+TBD.
+
+=head1 AUTHOR
+
+Wakaba (id:wakabatan) <wakabatan@hatena.ne.jp>.
+
+=head1 LICENSE
+
+Copyright 2012 Wakaba <w@suika.fam.cx>.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut

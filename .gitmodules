@@ -7,3 +7,6 @@
 [submodule "modules/perl-web-useragent-functions"]
 	path = modules/perl-web-useragent-functions
 	url = git://github.com/wakaba/perl-web-useragent-functions
+[submodule "modules/perl-web-utils"]
+	path = modules/perl-web-utils
+	url = git://github.com/wakaba/perl-web-utils
