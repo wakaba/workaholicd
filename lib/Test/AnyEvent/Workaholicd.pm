@@ -17,6 +17,20 @@ sub root_d {
 
 # ------ Options ------
 
+sub perl {
+    if (@_ > 1) {
+        $_[0]->{perl} = $_[1];
+    }
+    return $_[0]->{perl} || 'perl';
+}
+
+sub perl_inc {
+    if (@_ > 1) {
+        $_[0]->{perl_inc} = $_[1];
+    }
+    return $_[0]->{perl_inc} || [];
+}
+
 sub server_pl_f {
     my $self = shift;
     if (@_) {
@@ -72,7 +86,8 @@ sub start_server {
     my $pid;
     my $stop_cv = run_cmd
         [
-            'perl',
+            $self->perl,
+            (map { "-I$_" } @{$self->perl_inc}),
             $self->server_pl_f->stringify, 
             $self->config_pl_f->stringify,
         ],
