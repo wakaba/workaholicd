@@ -10,3 +10,6 @@
 [submodule "modules/perl-web-utils"]
 	path = modules/perl-web-utils
 	url = git://github.com/wakaba/perl-web-utils
+[submodule "t/modules/test-x1"]
+	path = t/modules/test-x1
+	url = git://github.com/wakaba/perl-test-x1

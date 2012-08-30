@@ -1,18 +1,14 @@
 =head1 NAME
 
-Workaholicd - A simple daemon to watch databases and notify events by invoking Web APIs
+Test::AnyEvent::Workaholicd - Starting workaholicd for test scripts
 
 =head1 DESCRIPTION
 
 TBD.
 
-=head1 SEE ALSO
-
-L<Test::AnyEvent::Workaholicd>.
-
 =head1 DISTRIBUTION
 
-Latest version of the workaholicd script is available at:
+Latest version of the module is available at:
 <https://github.com/wakaba/workaholicd>.
 
 =head1 AUTHOR
