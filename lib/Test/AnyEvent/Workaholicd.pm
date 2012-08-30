@@ -83,6 +83,8 @@ sub onstderr {
 sub start_server {
     my $self = shift;
     
+    local %ENV = ($self->envs);
+
     my $pid;
     my $stop_cv = run_cmd
         [
