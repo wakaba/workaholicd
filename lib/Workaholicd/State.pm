@@ -84,6 +84,7 @@ sub action {
                     };
                     http_post
                         anyevent => 1,
+                        timeout => $def->{timeout} || 60*10,
                         url => $def->{url},
                         basic_auth => $def->{basic_auth},
                         header_fields => {
