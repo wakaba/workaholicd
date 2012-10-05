@@ -1,1 +1,6 @@
+/Makefile.setupenv
+/config/perl/libs.txt
+/local/
+/perl
+/prove
 *~
