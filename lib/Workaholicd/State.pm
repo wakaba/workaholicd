@@ -9,6 +9,7 @@ use Scalar::Util qw(weaken);
 use Workaholicd::Main;
 
 my $LastTaskID = 0;
+our $HTTPTimeout ||= 60;
 
 sub new_from_taskdef {
     my $state = bless {def => $_[1], task_id => ++$LastTaskID}, $_[0];
@@ -84,6 +85,7 @@ sub action {
                     };
                     http_post
                         anyevent => 1,
+                        timeout => $HTTPTimeout,
                         url => $def->{url},
                         basic_auth => $def->{basic_auth},
                         header_fields => {
