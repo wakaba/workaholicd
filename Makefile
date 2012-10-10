@@ -31,6 +31,8 @@ generatepm: %: Makefile-setupenv
 	    PMB_PMTAR_REPO_URL=$(PMB_PMTAR_REPO_URL) \
 	    PMB_PMPP_REPO_URL=$(PMB_PMPP_REPO_URL)
 
+deps: git-submodules pmb-install
+
 # ------ Tests ------
 
 GIT = git
@@ -38,7 +40,7 @@ GIT = git
 git-submodules:
 	$(GIT) submodule update --init
 
-test-deps: git-submodules pmb-install
+test-deps: deps
 
 PERL_ENV = PATH=$(PERL_PATH):$(PATH) PERL5LIB=$(shell cat config/perl/libs.txt)
 PROVE = prove
