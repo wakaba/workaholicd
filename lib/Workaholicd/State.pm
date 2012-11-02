@@ -61,7 +61,10 @@ sub action {
     my ($state, $code) = @_;
 
     my @def = @{$state->{def}->{actions}};
-    my $def = $def[rand @def];
+    my $def = $def[rand @def] or do {
+        $code->() if $code;
+        return;
+    };
 
     my $db = $state->db($def->{db});
     eval {
