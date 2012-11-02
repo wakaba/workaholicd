@@ -22,7 +22,8 @@ sub tasks_f {
 sub load_tasks {
     my $self = shift;
     $self->write_log(message => 'Loading task definitions from ' . $self->{tasks_f}->stringify . '...');
-    my $tasks = do($self->{tasks_f}->stringify) or die $@;
+    my $tasks = do($self->{tasks_f}->stringify)
+        or die "$0: @{[$self->{tasks_f}]}: $!$@\n";
     for my $task (@$tasks) {
         my $state = Workaholicd::State->new_from_taskdef($task);
         $state->schedule_next($self->{cv});
