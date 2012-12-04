@@ -1,34 +1,32 @@
+# -*- Makefile -*-
+
 all:
 
-# ------ Dependency ------
+## ------ Setup ------
 
 WGET = wget
 
-Makefile-setupenv: Makefile.setupenv
-	$(MAKE) --makefile Makefile.setupenv setupenv-update \
-	    SETUPENV_MIN_REVISION=20120336
+deps: pmbp-install
 
-Makefile.setupenv:
-	$(WGET) -O $@ https://raw.github.com/wakaba/perl-setupenv/master/Makefile.setupenv
+local/bin/pmbp.pl:
+	mkdir -p local/bin
+	$(WGET) -O $@ https://raw.github.com/wakaba/perl-setupenv/master/bin/pmbp.pl
+pmbp-upgrade: local/bin/pmbp.pl
+	perl local/bin/pmbp.pl --update-pmbp-pl
+pmbp-update: pmbp-upgrade
+	perl local/bin/pmbp.pl --update
+pmbp-install: pmbp-upgrade
+	perl local/bin/pmbp.pl --install \
+            --create-perl-command-shortcut perl \
+            --create-perl-command-shortcut prove
 
-pmbp-install pmbp-update \
-generatepm: %: Makefile-setupenv
-	$(MAKE) --makefile Makefile.setupenv $@
-
-deps: git-submodules pmbp-install
-
-# ------ Tests ------
-
-GIT = git
-
-git-submodules:
-	$(GIT) submodule update --init
-
-test-deps: deps
+## ------ Tests ------
 
 PROVE = ./prove
 
 test: test-deps test-main
+
+test-deps: deps
 
 test-main:
 	$(PROVE) t/*.t
