@@ -4,3 +4,6 @@
 /perl
 /prove
 *~
+/plackup
+/cin
+/deps/
