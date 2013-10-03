@@ -1,0 +1,3 @@
+- "../../modules/dongry" tests mp datetime
+- "../../modules/perl-json-functions-xs" tests
+- "../../modules/perl-web-useragent-functions" tests cli lwp oauth testws wsse curl
