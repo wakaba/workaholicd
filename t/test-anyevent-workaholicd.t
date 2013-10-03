@@ -46,7 +46,11 @@ test {
 
     my $server = Test::AnyEvent::Workaholicd->new_from_root_d($root_d);
     $server->set_config_code(q{
-        return [];
+        return [{
+            interval => 1,
+            dsns => {},
+            actions => [],
+        }];
     });
 
     my ($start_cv, $stop_cv) = $server->start_server;

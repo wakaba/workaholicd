@@ -1,7 +1,5 @@
 AnyEvent
-AnyEvent::Util
 Data::Dumper
-File::Temp
 Path::Class
 Scalar::Util
 Sys::Hostname

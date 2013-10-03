@@ -29,6 +29,10 @@ sub load_tasks {
         $state->schedule_next($self->{cv});
         push @{$self->{states}}, $state;
     }
+    unless (@$tasks) {
+        $self->write_log(message => "No task returned by $self->{tasks_f}");
+        die "No task returned by $self->{tasks_f}";
+    }
     undef $self->{load_timer};
 }
 

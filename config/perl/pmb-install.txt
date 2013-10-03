@@ -10,9 +10,9 @@ IO::HTML~1.00
 CPAN::Meta~2.132661
 HTTP::Daemon~6.01
 Module::Build~0.4007
-Test::Deep~0.110
 List::MoreUtils~0.33
 Data::MessagePack~0.48
+Test::Deep~0.110
 DBI~1.628
 ExtUtils::ParseXS~3.22
 ExtUtils::MakeMaker~6.78
@@ -24,7 +24,6 @@ DBD::mysql~4.024
 Path::Class~0.32
 common::sense~3.72
 List::Rubyish~0.03
-URI::Escape~3.31
 LWP::MediaTypes~6.02
 Package::Stash::XS~0.28
 Test::Fatal~0.013
@@ -47,7 +46,6 @@ CPAN::Meta::YAML~0.010
 Class::ErrorHandler~0.03
 Class::Singleton~1.4
 Params::Validate~1.08
-LWP::UserAgent~6.05
 Sub::Install~0.926
 MIME::Base64~3.14
 HTML::Tagset~3.20
@@ -61,15 +59,14 @@ File::Listing~6.04
 Class::Factory::Util~1.7
 DateTime::Locale~0.45
 Crypt::OpenSSL::Random~0.04
-AnyEvent::Util
 Module::Implementation~0.07
 Crypt::SSLeay~0.64
 Time::Local~1.2300
 OAuth::Lite::AuthMethod
 Getopt::Long~2.42
 Try::Tiny~0.18
-Test::Exception~0.32
 AnyEvent~7.05
+Test::Exception~0.32
 Exporter::Lite~0.02
 Test::Class~0.39
 Data::Dumper~2.145
