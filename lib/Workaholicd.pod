@@ -17,11 +17,15 @@ Latest version of the workaholicd script is available at:
 
 =head1 AUTHOR
 
-Wakaba (id:wakabatan) <wakabatan@hatena.ne.jp>.
+Wakaba <wakaba@suikawiki.org>.
+
+=head1 ACKNOWLEDGEMENTS
+
+Thanks to aereal and pokutuna.
 
 =head1 LICENSE
 
-Copyright 2012 Hatena <http://www.hatena.ne.jp/>.
+Copyright 2012 Hatena <http://hatenacorp.jp/>.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
