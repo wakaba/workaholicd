@@ -10,10 +10,12 @@ TBD.
 
 L<Test::AnyEvent::Workaholicd>.
 
-=head1 DISTRIBUTION
+=head1 DEVELOPMENT
 
 Latest version of the workaholicd script is available at:
 <https://github.com/wakaba/workaholicd>.
+
+Travis CI <https://travis-ci.org/wakaba/workaholicd>.
 
 =head1 AUTHOR
 
