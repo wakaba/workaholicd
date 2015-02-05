@@ -1,11 +1,16 @@
-# -*- Makefile -*-
-
 all:
 
-## ------ Setup ------
-
+CURL = curl
 WGET = wget
 GIT = git
+
+updatenightly: local/bin/pmbp.pl
+	$(CURL) -s -S -L https://gist.githubusercontent.com/wakaba/34a71d3137a52abb562d/raw/gistfile1.txt | sh
+	$(GIT) add modules t_deps/modules
+	perl local/bin/pmbp.pl --update
+	$(GIT) add config
+
+## ------ Setup ------
 
 deps: git-submodules pmbp-install
 
