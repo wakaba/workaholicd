@@ -11,7 +11,7 @@ Test::Deep~0.115
 DBI~1.633
 AnyEvent~7.08
 Term::ANSIColor~4.03
-parent~0.228
+parent~0.229
 Exporter::Lite~0.06
 Data::Dumper~2.154
 AnyEvent::HTTP~2.21
