@@ -1,5 +1,5 @@
 Net::SSLeay~1.68
-Carp::Heavy~1.35
+Carp::Heavy~1.36
 ExtUtils::Constant~0.23
 JSON::XS~3.01
 Encode~2.72
@@ -11,7 +11,7 @@ Test::Deep~0.115
 DBI~1.633
 AnyEvent~7.08
 Term::ANSIColor~4.03
-parent~0.231
+parent~0.232
 Exporter::Lite~0.06
 Data::Dumper~2.154
 AnyEvent::HTTP~2.21
