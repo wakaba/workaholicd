@@ -26,7 +26,7 @@ Path::Class~0.35
 common::sense~3.73
 IO::Compress::Bzip2~2.068
 IO::Socket::Socks~0.67
-Scalar::Util~1.41
+Scalar::Util~1.42
 Types::Serialiser~1.0
 LWP::MediaTypes~6.02
 Encode::Locale~1.04
