@@ -15,7 +15,7 @@ parent~0.232
 Exporter::Lite~0.06
 ExtUtils::MakeMaker~7.04
 Data::Dumper~2.154
-AnyEvent::HTTP~2.21
+AnyEvent::HTTP~2.22
 Compress::Raw::Zlib~2.068
 Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
