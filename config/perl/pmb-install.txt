@@ -1,4 +1,4 @@
-Net::SSLeay~1.68
+Net::SSLeay~1.69
 Carp::Heavy~1.36
 ExtUtils::Constant~0.23
 JSON::XS~3.01
