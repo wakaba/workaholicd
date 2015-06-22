@@ -7,7 +7,7 @@ IO::HTML~1.001
 AnyEvent::Util
 Test::Builder~1.001014
 Time::Local~1.2300
-Test::Deep~0.115
+Test::Deep~0.117
 DBI~1.633
 AnyEvent~7.09
 Term::ANSIColor~4.03
