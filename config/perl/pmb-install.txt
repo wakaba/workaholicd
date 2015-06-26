@@ -1,4 +1,4 @@
-Net::SSLeay~1.69
+Net::SSLeay~1.70
 Carp::Heavy~1.36
 ExtUtils::Constant~0.23
 JSON::XS~3.01
@@ -33,6 +33,6 @@ LWP::MediaTypes~6.02
 Encode::Locale~1.05
 Filter::Util::Call~1.54
 Socket~2.020
-URI~1.67
+URI~1.68
 HTTP::Date~6.02
 MIME::Base64~3.15
