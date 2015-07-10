@@ -20,7 +20,7 @@ Compress::Raw::Zlib~2.068
 Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
 Compress::Raw::Bzip2~2.068
-HTTP::Response~6.04
+HTTP::Response~6.07
 DBD::mysql~4.031
 File::Temp~0.2304
 Path::Class~0.35
@@ -28,8 +28,8 @@ common::sense~3.74
 IO::Compress::Bzip2~2.068
 IO::Socket::Socks~0.67
 Scalar::Util~1.42
-Types::Serialiser~1.0
 LWP::MediaTypes~6.02
+Types::Serialiser~1.0
 Encode::Locale~1.05
 Filter::Util::Call~1.54
 Socket~2.020
