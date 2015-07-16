@@ -9,13 +9,14 @@ Test::Builder~1.001014
 Time::Local~1.2300
 Test::Deep~0.117
 DBI~1.633
-AnyEvent~7.09
+AnyEvent~7.11
 Term::ANSIColor~4.03
 parent~0.234
 Exporter::Lite~0.06
 ExtUtils::MakeMaker~7.04
 Data::Dumper~2.154
 AnyEvent::HTTP~2.22
+Canary::Stability~2006
 Compress::Raw::Zlib~2.068
 Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
