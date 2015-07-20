@@ -21,7 +21,7 @@ Compress::Raw::Zlib~2.068
 Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
 Compress::Raw::Bzip2~2.068
-HTTP::Response~6.08
+HTTP::Response~6.09
 DBD::mysql~4.031
 File::Temp~0.2304
 Path::Class~0.35
