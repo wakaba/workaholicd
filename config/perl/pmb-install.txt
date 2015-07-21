@@ -22,7 +22,7 @@ Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
 Compress::Raw::Bzip2~2.068
 HTTP::Response~6.10
-DBD::mysql~4.031
+DBD::mysql~4.032
 File::Temp~0.2304
 Path::Class~0.35
 common::sense~3.74
