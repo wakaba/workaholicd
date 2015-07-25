@@ -34,6 +34,6 @@ Types::Serialiser~1.0
 Encode::Locale~1.05
 Filter::Util::Call~1.54
 Socket~2.020
-URI~1.68
+URI~1.69
 HTTP::Date~6.02
 MIME::Base64~3.15
