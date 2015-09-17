@@ -2,7 +2,7 @@ Net::SSLeay~1.70
 Carp::Heavy~1.36
 ExtUtils::Constant~0.23
 JSON::XS~3.01
-Encode~2.76
+Encode~2.77
 IO::HTML~1.001
 AnyEvent::Util
 Test::Builder~1.001014
