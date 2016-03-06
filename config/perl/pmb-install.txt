@@ -1,7 +1,7 @@
 Net::SSLeay~1.72
 Carp::Heavy~1.38
 ExtUtils::Constant~0.23
-JSON::XS~3.01
+JSON::XS~3.02
 Encode~2.82
 IO::HTML~1.001
 AnyEvent::Util
@@ -24,10 +24,10 @@ Compress::Raw::Bzip2~2.069
 HTTP::Response~6.11
 DBD::mysql~4.033
 File::Temp~0.2304
-Path::Class~0.35
+Path::Class~0.36
 common::sense~3.74
 IO::Compress::Bzip2~2.069
-IO::Socket::Socks~0.67
+IO::Socket::Socks~0.68
 Scalar::Util~1.43
 LWP::MediaTypes~6.02
 Types::Serialiser~1.0
