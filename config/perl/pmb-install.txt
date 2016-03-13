@@ -16,7 +16,7 @@ Exporter::Lite~0.08
 ExtUtils::MakeMaker~7.10
 Data::Dumper~2.154
 AnyEvent::HTTP~2.22
-Canary::Stability~2006
+Canary::Stability~2011
 Compress::Raw::Zlib~2.069
 Test::More~1.001014
 AnyEvent::HTTP::Socks~0.05
