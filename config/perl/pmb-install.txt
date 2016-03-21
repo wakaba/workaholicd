@@ -10,7 +10,7 @@ Time::Local~1.2300
 Test::Deep~1.120
 DBI~1.634
 AnyEvent~7.12
-Term::ANSIColor~4.04
+Term::ANSIColor~4.05
 parent~0.234
 Exporter::Lite~0.08
 ExtUtils::MakeMaker~7.10
