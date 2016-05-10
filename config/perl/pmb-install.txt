@@ -5,7 +5,7 @@ JSON::XS~3.02
 Encode~2.84
 IO::HTML~1.001
 AnyEvent::Util
-Test::Builder~1.001014
+Test::Builder~1.302015
 Time::Local~1.2300
 Test::Deep~1.120
 DBI~1.636
@@ -18,7 +18,7 @@ Data::Dumper~2.154
 AnyEvent::HTTP~2.22
 Canary::Stability~2011
 Compress::Raw::Zlib~2.069
-Test::More~1.001014
+Test::More~1.302015
 AnyEvent::HTTP::Socks~0.05
 Compress::Raw::Bzip2~2.069
 HTTP::Response~6.11
