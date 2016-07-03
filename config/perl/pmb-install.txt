@@ -14,7 +14,7 @@ Term::ANSIColor~4.05
 parent~0.234
 Exporter::Lite~0.08
 ExtUtils::MakeMaker~7.18
-Data::Dumper~2.154
+Data::Dumper~2.160
 AnyEvent::HTTP~2.22
 Canary::Stability~2011
 Compress::Raw::Zlib~2.069
