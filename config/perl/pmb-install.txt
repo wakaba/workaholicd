@@ -7,7 +7,6 @@ IO::HTML~1.001
 AnyEvent::Util
 Test::Builder~1.302037
 Time::Local~1.2300
-Test::Deep~1.120
 DBI~1.636
 AnyEvent~7.12
 Term::ANSIColor~4.05
@@ -22,7 +21,7 @@ Test::More~1.302037
 AnyEvent::HTTP::Socks~0.05
 Compress::Raw::Bzip2~2.069
 HTTP::Response~6.11
-DBD::mysql~4.033
+DBD::mysql~4.034
 File::Temp~0.2304
 Path::Class~0.36
 common::sense~3.74
