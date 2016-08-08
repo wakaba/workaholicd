@@ -13,7 +13,7 @@ Encode~2.85
 Encode::Locale~1.05
 Exporter::Lite~0.08
 ExtUtils::Constant~0.23
-ExtUtils::MakeMaker~7.20
+ExtUtils::MakeMaker~7.22
 File::Temp~0.2304
 Filter::Util::Call~1.55
 HTTP::Date~6.02
