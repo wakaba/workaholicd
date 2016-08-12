@@ -27,7 +27,7 @@ MIME::Base64~3.15
 Net::SSLeay~1.77
 Path::Class~0.36
 Scalar::Util~1.45
-Socket~2.023
+Socket~2.024
 Term::ANSIColor~4.05
 Test::Builder~1.302049
 Time::Local~1.2300
