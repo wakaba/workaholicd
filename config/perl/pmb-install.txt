@@ -24,7 +24,7 @@ IO::Socket::Socks~0.68
 JSON::XS~3.02
 LWP::MediaTypes~6.02
 MIME::Base64~3.15
-Net::SSLeay~1.77
+Net::SSLeay~1.78
 Path::Class~0.36
 Scalar::Util~1.45
 Socket~2.024
