@@ -6,7 +6,7 @@ Canary::Stability~2011
 Carp::Heavy~1.38
 Compress::Raw::Bzip2~2.069
 Compress::Raw::Zlib~2.069
-DBD::mysql~4.035
+DBD::mysql~4.036
 DBI~1.636
 Data::Dumper~2.161
 Encode~2.86
