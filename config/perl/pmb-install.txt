@@ -26,7 +26,7 @@ LWP::MediaTypes~6.02
 MIME::Base64~3.15
 Net::SSLeay~1.78
 Path::Class~0.37
-Scalar::Util~1.45
+Scalar::Util~1.46
 Socket~2.024
 Term::ANSIColor~4.05
 Test::Builder~1.302059
