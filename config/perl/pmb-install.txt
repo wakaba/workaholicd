@@ -12,7 +12,7 @@ Exporter::Lite~0.08
 File::Temp~0.2304
 Filter::Util::Call~1.55
 HTTP::Date~6.02
-HTTP::Request~6.11
+HTTP::Response~6.11
 IO::HTML~1.001
 IO::Socket::Socks~0.71
 JSON::XS~3.02
@@ -21,7 +21,7 @@ MIME::Base64~3.15
 Net::SSLeay~1.78
 Path::Class~0.37
 Scalar::Util~1.46
-Term::ANSIColor~4.05
+Term::ANSIColor~4.06
 Test::More~1.302062
 Time::Local~1.24
 Types::Serialiser~1.0
