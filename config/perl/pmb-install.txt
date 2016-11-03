@@ -1,6 +1,7 @@
 AnyEvent~7.13
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
 Carp::Heavy~1.38
 DBD::mysql~4.038
@@ -12,7 +13,7 @@ Exporter::Lite~0.08
 File::Temp~0.2304
 Filter::Util::Call~1.55
 HTTP::Date~6.02
-HTTP::Response~6.11
+HTTP::Request~6.11
 IO::HTML~1.001
 IO::Socket::Socks~0.72
 JSON::XS~3.02
@@ -22,7 +23,7 @@ Net::SSLeay~1.78
 Path::Class~0.37
 Scalar::Util~1.46
 Term::ANSIColor~4.06
-Test::Builder~1.302062
+Test::More~1.302062
 Time::Local~1.24
 Types::Serialiser~1.0
 URI~1.71
