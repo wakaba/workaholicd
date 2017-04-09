@@ -12,7 +12,7 @@ Exporter::Lite~0.08
 File::Temp~0.2304
 Filter::Util::Call~1.57
 HTTP::Date~6.02
-HTTP::Response~6.11
+HTTP::Request~6.11
 IO::HTML~1.001
 IO::Socket::Socks~0.73
 JSON::XS~3.03
