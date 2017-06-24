@@ -1,4 +1,4 @@
-AnyEvent~7.13
+AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
 Canary::Stability~2012
@@ -6,13 +6,13 @@ Carp::Heavy~1.38
 DBD::mysql~4.042
 DBI~1.636
 Data::Dumper~2.161
-Encode~2.90
+Encode~2.91
 Encode::Locale~1.05
 Exporter::Lite~0.08
 File::Temp~0.2304
 Filter::Util::Call~1.57
 HTTP::Date~6.02
-HTTP::Response~6.11
+HTTP::Response~6.13
 IO::HTML~1.001
 IO::Socket::Socks~0.74
 JSON::XS~3.03
@@ -20,9 +20,9 @@ LWP::MediaTypes~6.02
 MIME::Base64~3.15
 Net::SSLeay~1.81
 Path::Class~0.37
-Scalar::Util~1.47
+Scalar::Util~1.48
 Term::ANSIColor~4.06
-Test::Builder~1.302085
+Test::More~1.302086
 Time::Local~1.25
 Types::Serialiser~1.0
 URI~1.71
