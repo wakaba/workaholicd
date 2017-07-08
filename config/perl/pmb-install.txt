@@ -1,8 +1,9 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
-Carp~1.38
+Carp::Heavy~1.38
 DBD::mysql~4.043
 DBI~1.636
 Data::Dumper~2.161
