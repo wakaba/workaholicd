@@ -1,9 +1,8 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
-AnyEvent::Util
 Canary::Stability~2012
-Carp::Heavy~1.38
+Carp~1.38
 DBD::mysql~4.043
 DBI~1.637
 Data::Dumper~2.161
@@ -23,7 +22,7 @@ Net::SSLeay~1.81
 Path::Class~0.37
 Scalar::Util~1.49
 Term::ANSIColor~4.06
-Test::More~1.302096
+Test::More~1.302098
 Time::Local~1.25
 Types::Serialiser~1.0
 URI~1.72
