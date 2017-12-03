@@ -1,8 +1,9 @@
 AnyEvent~7.14
 AnyEvent::HTTP~2.23
 AnyEvent::HTTP::Socks~0.05
+AnyEvent::Util
 Canary::Stability~2012
-Carp~1.38
+Carp::Heavy~1.38
 DBD::mysql~4.043
 DBI~1.637
 Data::Dumper~2.161
@@ -12,7 +13,7 @@ Exporter::Lite~0.08
 File::Temp~0.2304
 Filter::Util::Call~1.58
 HTTP::Date~6.02
-HTTP::Response~6.13
+HTTP::Request~6.13
 IO::HTML~1.001
 IO::Socket::Socks~0.74
 JSON::XS~3.04
